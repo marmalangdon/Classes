@@ -11,7 +11,7 @@ HelloWorld::HelloWorld()
 
 Sucess::Sucess()
 {
-    auto next = MenuItemFont::create("Next >>", CC_CALLBACK_1(Sucess::nextMenuCallback, this));
+    auto next = MenuItemFont::create("Next ->>", CC_CALLBACK_1(Sucess::nextMenuCallback, this));
     
     auto sucessLabel = LabelBMFont::create("Correct", "futura-48.fnt");
     sucessLabel->setAnchorPoint(Vec2(0,0));
